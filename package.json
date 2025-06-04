@@ -1,0 +1,39 @@
+{
+  "name": "com.berkcankarabulut.unity-web-api",
+  "version": "1.0.0",
+  "displayName": "Unity Web API Client",
+  "description": "A modular, robust HTTP client for Unity with async/await support, retry mechanisms, and clean service architecture.",
+  "unity": "2021.3",
+  "unityRelease": "0f1",
+  "documentationUrl": "https://github.com/yourcompany/unity-web-api-client#readme",
+  "changelogUrl": "https://github.com/yourcompany/unity-web-api-client/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/yourcompany/unity-web-api-client/blob/main/LICENSE.md",
+  "keywords": [
+    "http",
+    "web",
+    "api",
+    "networking",
+    "rest",
+    "async",
+    "unitask"
+  ],
+  "author": {
+    "name": "BerkcanKarabulut", 
+    "url": "https://github.com/berkcankarabulut"
+  },
+  "dependencies": {
+    "com.cysharp.unitask": "2.3.3"
+  },
+  "samples": [
+    {
+      "displayName": "Basic HTTP Requests",
+      "description": "Examples showing basic GET, POST, PUT, DELETE operations",
+      "path": "Samples~/BasicRequests"
+    },
+    {
+      "displayName": "Game API Integration",
+      "description": "Complete game backend integration example",
+      "path": "Samples~/GameAPI"
+    }
+  ]
+}
